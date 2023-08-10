@@ -1,14 +1,136 @@
 body {
+    margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+/* HEADER SECTION CSS */
+/* HEADER SECTION CSS */
+
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .header,
-.hero {
+#title {
     background-color: #1F2937 ;
+}
+
+.header {
+    display: flex;
+    padding: 24px 3em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-self: flex-end;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 2em;
+}
+
+/* INFO SECTION CSS */
+/* INFO SECTION CSS */
+/* INFO SECTION CSS */
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+  }
+  
+.info  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.content {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+  }
+
+.item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 100px;
+    height: 100px;
+  }
+
+/* HERO SECTION CSS */
+/* HERO SECTION CSS */
+/* HERO SECTION CSS */
+
+.section#title {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+
+}
+
+#title img {
+    width: fit-content;
+    height: 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 4em;
+    flex-grow: 1;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 8px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    margin: 3em;
+    flex-grow: 1;
 }
