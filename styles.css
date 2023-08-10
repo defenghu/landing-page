@@ -129,11 +129,12 @@ a {
 }
 
 button {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882f6;
+    border: 1px solid #3882f6;
     color: white;
     padding: 8px 30px;
     border-radius: 8px;
+    font-size: 20px;
 }
 
 .image {
@@ -150,7 +151,7 @@ button {
 .section#quote {
     background-color: #E5E7EB;
     display: flex;
-    padding: 100px 270px;
+    padding: 140px 270px;
 }
 
 .card {
@@ -170,3 +171,45 @@ button {
     font-size: 21px;
     align-self: flex-end;
 }
+
+/* CONTACT SECTION CSS */
+/* CONTACT SECTION CSS */
+/* CONTACT SECTION CSS */
+
+
+.section#contact {
+    padding: 90px 170px;
+}
+
+.container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    padding: 60px 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-text {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.box-text1 {
+    color: #F9FAF8;
+    font-weight: 250;
+    font-size: 16px;
+}
+
+.box-button {
+    border-color: white;
+    border-width: 2px;
+}
+
