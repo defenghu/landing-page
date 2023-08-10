@@ -47,12 +47,16 @@ a {
 /* INFO SECTION CSS */
 /* INFO SECTION CSS */
 
+.section#info {
+    margin-bottom: 5em;
+} 
+
 .title {
     font-size: 36px;
     font-weight: 900;
     display: flex;
     justify-content: center;
-    margin: 32px;
+    margin: 48px;
   }
   
 .info  {
@@ -66,13 +70,17 @@ a {
     display: flex;
     gap: 32px;
     justify-content: center;
+    text-align: center;
   }
 
 .item {
     width: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
 }
   
 .text {
@@ -81,8 +89,8 @@ a {
 }
 
 .content img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
 
 /* HERO SECTION CSS */
